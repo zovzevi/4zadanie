@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<title> 4</title>
+<style>
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;}
+</style>
+</head>
+<body class="root">
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4 d-flex justify-content-md-start justify-content-between align-items-center">
+                <img src="kartinki/logo.jpg" alt="Логотип" class="logo">
+                <h1 class="name-project">Человек-Паук</h1>
+            </div>
+            <div class="col-12 col-md-8 d-flex justify-content-md-end flex-column justify-content-center align-items-center flex-md-row">
+                <nav>
+                    <ul class="nav-menu">
+                        <li class="navnav d-md-inline-block d-block m-3"><a href="#table" class="navnavnav">Таблица</a></li>
+                        <li class="navnav d-md-inline-block d-block m-3"><a href="#form" class="navnavnav">Форма</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-10 mx-auto d-flex flex-column justify-content-center align-items-center">
+                <div class="front-block my-3 order-2 order-md-0">
+                    <ol id="links" class="list px-md-5 px-3">
+                        <li class="m-3 m-sm-2"><a href="http://kubsu.ru/" target="_blank" class="tekct" >КубГУ</a></li>
+                        <li class="m-3 m-sm-2"><a href="https://kubsu.ru/" target="_blank" >КубГУ https</a> </li>
+                        <li class="m-3 m-sm-2"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                            <img src="kartinki/бе.jpg" width="250" height="250" alt="барашек"></a></li>
+                        <li class="m-3 m-sm-2"><a href="/arara.html">Сокращенная ссылка на внутренню страницу</a></li>
+                        <li class="m-3 m-sm-2"><a href="/index.html">Сокращенная ссылка на главную страницу</a></li>
+                        <li class="m-3 m-sm-2"><a href="#podval">Ссылка на фрагмент</a></li>
+                        <li class="m-3 m-sm-2"><a href="https://kubsu.ru/?id=5834hufndlksja&page=555&name=name" target="_blank">Ссылка с 3мя параметрами</a> </li>
+                        <li class="m-3 m-sm-2"><a href="https://kubsu.ru/?id=5834hufndlksja" target="_blank">Ссылка с параметром id</a> </li>
+                        <li class="m-3 m-sm-2"><a href ="./arara.html">Относительная ссылка в текущем катологе</a></li>
+                        <li class="m-3 m-sm-2"><a href="./about/aBoUt.html">В каталог about</a></li>
+                        <li class="m-3 m-sm-2"><a href="./html1zadanie/yep.html">Уровнем ниже текущего(выше будет на следуещей странице)</a></li>
+                        <li class="m-3 m-sm-2"><a href="html1zadanie/gtr/ovaova.html">Двумя уровнями выше текущего(аналогично)</a></li>
+                        <li class="m-3 m-sm-2"> Здесь будет текст для <a href="arara.html">контекстной</a> ссылки</li>
+                        <li class="m-3 m-sm-2"><a href="https://ru.wikipedia.org/wiki/Кубанский_государственный_университет#Ректоры">Ссылку на фрагмент страницы стороннего сайта</a></li>
+                        <li class="m-3 m-sm-2">Ссылка в прямоугольной и круглой области <img src="kartinki/пёс.jpg" alt="пёснос" usemap="#boop">
+                            <map name="boop">
+                                <area shape="circle" coords="100,220,30" href="https://www.youtube.com/watch?v=AoehgPuzf5U" target="_blank" alt="нос">
+                                <area shape="rect" coords="0,0,50,50" href="https://www.youtube.com/watch?v=GMqTRd0iLSs" target="_blank" alt="TACHILA">
+                            </map>
+                        <li class="m-3 m-sm-2"><a href="#!">Ссылка с пустым href</a></li>
+                        <li class="m-3 m-sm-2"><a>Ссылка без href</a></li>
+                        <li class="m-3 m-sm-2">Ссылки в пронумерованном списке<ol>
+                            <li ><a href="./arara.html" title="title">Title</a></li>
+                            <li ><a href="./test.html" title="тайтле">Тайтле</a></li>
+                            <li ><a href="./about/aBoUt.html" title="титле">Титле</a></li>
+                        </ol>
+                        </li>
+                        <li class="m-3 m-sm-2"><a href="test.html" rel="nofollow">Ссылка без доступа к поисковикам</a></li>
+                        <li class="m-3 m-sm-2"><a href="arara.html" rel="noindex">Ссылка запрещенная для индексации поисковиками</a></li>
+                        <li class="m-3 m-sm-2"><a href="ftp://demo:demo@http://demo.wftpserver.com/main.html/download/Spring.jpg">ссылка на файл с авторизацией</a></li>
+                    </ol>
+                </div>
+                <div class="front-block first-table my-3 p-3 order-0 order-md-1">
+                    <table id="tables" class="mx-auto">
+                        <thead>
+                        <tr class="border-1">
+                            <th scope="col" class="border-1">1 колонка</th>
+                            <th scope="col" class="border-1">2 колонк</th>
+                            <th scope="col" class="border-1">3 колонк</th>
+                            <th scope="col" class="border-1">4 колонк</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="chet-item border-1">
+                            <th scope="row" class="border-1">1 урок</th>
+                            <td class="border-1">дата</td>
+                            <td class="border-1">задание</td>
+                            <td class="border-1">текст задания</td>
+                        </tr>
+                        <tr class="border-1">
+                            <th scope="row" class="border-1">2 урок</th>
+                            <td class="border-1">дата</td>
+                            <td class="border-1">задание</td>
+                            <td class="border-1">текст задания</td>
+                        </tr>
+                        <tr class="chet-item border-1">
+                            <th scope="row" class="border-1">3 урок</th>
+                            <td class="border-1">дата</td>
+                            <td class="border-1">задание</td>
+                            <td class="border-1">текст задания</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="border-1">4 урок</th>
+                            <td class="border-1">дата</td>
+                            <td class="border-1">задание</td>
+                            <td class="border-1">текст задания</td>
+                        </tr>
+                        <tr class="chet-item border-1">
+                            <th scope="row" class="border-1">5 урок</th>
+                            <td class="border-1">дата</td>
+                            <td class="border-1">задание</td>
+                            <td class="border-1">текст задания</td>
+                        </tr>
+                        <tr class="border-1">
+                            <th scope="row"  class="border-1">6 урок</th>
+                            <td class="border-1">дата</td>
+                            <td class="border-1">задание</td>
+                            <td class="border-1">текст задания</td>
+                        </tr>
+                        </tbody>
+                        <tfoot>
+                        <tr class="chet-item border-1">
+                            <th scope="row" colspan="2" class="border-1">Итоги</th>
+                            <td colspan="2" class="border-1">какое-то количество баллов</td>
+                        </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+            <a id="form"></a>
+            <form method="post" action="/" class="forms front-block">
+                <label>
+                    <br />
+                    <input placeholder="ФИО" required/>
+                </label><br />
+                <label>
+                    <input type="tel" placeholder="Телефон"  required pattern="#[ 0-9]"/>
+                </label><br />
+                <input type="email" placeholder="e-mail" required />
+                </label><br />
+                <label>
+                    Дата рождения <br/>
+                    <input type="date" required />
+                </label><br />
+                <label>
+                    <input name=sex type="radio" value="male" required />
+                    Мужской</label>
+                <label>
+                    <input name=sex type="radio" value="female" required/>
+                    Женский</label> <br />
+                <label>
+                    <br />
+                    <select required>
+                        <option disabled>Любимый язык программирования</option>
+                        <option value="Pascal">Pascal</option>
+                        <option value="C" >C</option>
+                        <option value="C++" >C++</option>
+                        <option value="Prolog" >Prolog</option>
+                        <option value="JavaScript" >JavaScript</option>
+                        <option value="PHP" >PHP</option>
+                        <option value="Python" >Python</option>
+                        <option value="Java" >Java</option>
+                        <option value="Haskel" >Haskel</option>
+                        <option value="Clojure" >Clojure</option>
+                        <option value="Prolog" >Prolog</option>
+                        <option value="Scala" >Scala</option>
+                    </select>
+                </label><br />
+                <label>
+                    <textarea placeholder="Биография" required></textarea>
+                </label><br />
+                <label>
+                    С контрактом ознакомился
+                    <input type="checkbox" required>
+                </label><br />
+                <input type="submit" value="Отправить"/>
+            </form>
+        </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md d-flex flex-column justify-content-center align-items-center">
+                <a id="podval"></a>
+                <p class="m-0">Преподаватель: Синица Сергей Геннадьевич</p><br>
+                <p class="m-0">Студент: Носков Артём Вячеславович</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

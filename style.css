@@ -1,0 +1,116 @@
+.root {
+    background-color:#303030;
+
+}
+header
+{
+
+    background-color: #292929;
+
+}
+.logo
+{
+    width: 100px;
+    height: 100px;
+}
+ol
+{
+    color:#999999;
+}
+label
+{
+    color:#999999;
+}
+header h1
+{
+    color: #999999;
+}
+
+
+
+
+p{
+    color:#999999
+}
+
+a
+{
+    color:#E6E6E6;
+}
+
+
+.navnavnav
+{
+    color: #999999;
+
+
+}
+
+
+footer
+{
+    background-color: #292929;
+    margin: 0;
+
+}
+
+
+
+
+
+
+.front-block {
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 15px;
+}
+main
+{
+    background-color: #252525;
+
+    border-radius: 15px;
+
+}
+
+
+input, select, textarea
+{
+    color: #151515;
+    background-color: #606060;
+}
+
+textarea:focus, input:focus
+{
+    color:white; background-color: #151515;
+}
+table
+{
+    color:#999999;
+
+}
+.stroka
+{
+    background-color: #151515
+
+}
+table
+{
+    border: 1px solid white;
+
+}
+caption
+{
+    border: 1px double white;
+}
+
+th {
+    border: 2px solid white;
+}
+
+td {
+    border: 2px solid white;
+}
+.front-block {
+    border-radius: 30px;
+}
+
+
